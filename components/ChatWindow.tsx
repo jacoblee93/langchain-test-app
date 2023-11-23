@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useChat } from "ai/react";
 import { useRef, useState, ReactElement } from "react";
 import type { FormEvent } from "react";
-import type { AgentStep } from "langchain/schema";
+import type { AgentStep } from "@langchain/core/agents";
 
 import { ChatMessageBubble } from "@/components/ChatMessageBubble";
 import { UploadDocumentsForm } from "@/components/UploadDocumentsForm";
